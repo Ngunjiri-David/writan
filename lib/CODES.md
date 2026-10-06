@@ -46,6 +46,5 @@ Under the oldest entry in the Ledger, one line: "Begun" and the first date.
 - Structure borrowed, surface original
 - Local-first, no sync. Each user keeps their own list (confirmed, for now).
   Completed list is called Ledger (default).
-- Candidate for the spec: carry-over as a question asked once each morning
-  (keep for today / move to Upcoming / let go to Someday), never a red pile
+- Carry-over: asked once each morning (Keep, Upcoming, Let go), never a red pile. Decided in SPEC.md.
 - Open: app name, typeface, accent, stack
