@@ -32,8 +32,7 @@ Capture. Entry points: launcher shortcut, quick-settings tile, share sheet, one
 button on Today, and one home-screen widget. The widget is a single bar reading
 "Capture" that opens the field. It shows no tasks, so it is never out of date.
 A single-line field opens with the keyboard up, typeable within 1 second of the
-tap on the owner's own phone, from any entry point. A single-line field opens with the keyboard up,
-typeable within 1 second of the tap on the owner's own phone. Return saves and
+tap on the owner's own phone, from any entry point. Return saves and
 leaves the field open and empty. Back closes it. A shared item saves and returns
 to the app it came from: subject or first line becomes the title, the rest the
 note. Capture lands in the Inbox, or in the project if started inside one.
