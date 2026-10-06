@@ -1,0 +1,24 @@
+# Stack constraints (from the frozen spec and CODES.md)
+Hard
+- Native Android, no backend, no account, no analytics, no ads.
+- All data on the device. Export and Import to a plain file the owner picks;
+  a daily safety copy on the device. Settings are Export and Import only.
+- Projects one level; Evening; one capture widget; Find; morning carry-over.
+- The day turns at 04:00. Today, Upcoming and the morning page depend on it,
+  so it needs tests for midnight, 04:00, month ends and daylight saving.
+- If SPEC.md has reminders: decide the mechanism with Play's current rules on
+  exact alarms in hand. Ask for notification permission when the first
+  reminder is set, never at launch.
+- Our own look: dynamic color off, dark mode on, system font scale and
+  reduced motion respected, rows at least 48 dp.
+- Every dependency open-licence, maintained and checked before it is added.
+- Buildable by one person with AI help on a free tier: small files, boring,
+  well-documented parts.
+Decide
+- Language and UI toolkit; storage; date and time handling; reminders;
+  widget toolkit; where the safety copy lives (private app storage dies on
+  uninstall); whether to allow the OS's own backup; testing; minimum Android
+  version from the two phones; the target version Play requires at launch.
+Output
+- One page: each decision, its runner-up, why, and what would make us
+  reverse it.
