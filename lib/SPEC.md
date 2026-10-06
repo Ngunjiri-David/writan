@@ -18,7 +18,9 @@ Project: a name and its tasks. One level. No areas, headings or tags.
 
 ## Lists are views, not places
 - Inbox: open, no when, no project
-- Today: open, when is today; also any open task whose deadline is today or past
+- Today: open, when is today; also any open task whose deadline is today or past.
+  Tasks marked evening sit in the same list beneath a thin rule headed
+  "Evening". The section appears only when it has tasks. It is not a separate list.
 - Upcoming: open, when is a later date, grouped by date
 - Someday: open, when is Someday
 - Project: its open tasks, its done tasks folded beneath
@@ -26,8 +28,11 @@ Project: a name and its tasks. One level. No areas, headings or tags.
 Giving a task a when or a project is what takes it out of the Inbox.
 
 ## Behaviors
-Capture. Entry points: launcher shortcut, quick-settings tile, share sheet,
-and one button on Today. A single-line field opens with the keyboard up,
+Capture. Entry points: launcher shortcut, quick-settings tile, share sheet, one
+button on Today, and one home-screen widget. The widget is a single bar reading
+"Capture" that opens the field. It shows no tasks, so it is never out of date.
+A single-line field opens with the keyboard up, typeable within 1 second of the
+tap on the owner's own phone, from any entry point. A single-line field opens with the keyboard up,
 typeable within 1 second of the tap on the owner's own phone. Return saves and
 leaves the field open and empty. Back closes it. A shared item saves and returns
 to the app it came from: subject or first line becomes the title, the rest the
@@ -40,11 +45,11 @@ today, one page asks once: "Left from yesterday" (or "Left from before").
 Each row has three answers: Keep (stays in Today), Upcoming (date picker),
 Let go (to Someday). One button, Keep all, answers every row. Leaving the page
 unanswered is the same as Keep all. After this, no open task has a past when.
-There is no overdue pile.
+There is no overdue pile. The evening mark clears when the day turns.
 
 Placing. Inbox rows carry three quiet actions: Today, a date, Someday.
-Tapping a row opens it for the rest: note, deadline, reminder, project.
-Edits save as they are made.
+Tapping a row opens it for the rest: when (Today, This evening, a date,
+Someday), note, deadline, reminder, project.
 
 Completing. A tap draws one line through the title and gives one soft haptic.
 The row rests about a second, then leaves for the Ledger. Tapping it during
@@ -90,9 +95,12 @@ No illustration, no encouragement.
 - TalkBack: every control is labelled. Every row reads title, when, deadline.
 
 ## Not in v1
-Accounts, sync, sharing, recurring tasks, checklists inside a task, tags, areas,
-headings, calendar view, widgets, natural-language dates, attachments, analytics,
-crash reporting, themes.
+Accounts, sync, sharing, handing over a task or project, recurring tasks,
+checklists inside a task, tags, areas, headings, Anytime, calendar view, a Today
+widget, natural-language dates, attachments, AI, analytics, crash reporting, ads,
+themes.
+Reopen sharing only if, during fitting, you catch yourselves texting each other
+tasks by hand.
 Known gap: recurring tasks. If either of you reaches for them in week one, they
 are the first addition.
 
@@ -105,8 +113,8 @@ Return, Back. It is in the Inbox. At 17:00 the owner taps a task, the line is
 drawn, and it leaves for the Ledger.
 
 ## Acceptance
-1. Capture: tap to saved under 3 s for a 40-character title. Ten tries, median,
-   on the owner's phone.
+1. Capture: tap to saved under 3 s for a 40-character title, from the shortcut
+   and from the widget. Ten tries each, median, on the owner's phone.
 2. Morning: five carried over, five in the Inbox, all placed in under 60 s, timed.
 3. Durability: 100 captures with the process killed at random. None lost, none doubled.
 4. Export, wipe, import: identical lists, Ledger and Begun date included.
